@@ -1,22 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  justify-content: center;
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #222;
-  background-color: #fff;
+  background-color: #eaeaea;
   text-align: center;
   line-height: 1.4em;
 }
 
 main {
   padding: 0;
-  margin-top: 40px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 h3 {
   margin-top: 30px;
 }
-
-
 
 .user-stories li {
   margin-bottom: 1em;
@@ -27,6 +43,7 @@ a {
 }
 
 form {
+  font-family: 'Roboto', sans-serif;
   margin: 10px auto;
   padding: 20px;
   max-width: 600px;
@@ -38,9 +55,16 @@ label {
 
 input {
   padding: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 
 input[type='text'] {
   width: 220px;
   text-align: center;
+}
+
+input[type='submit'] {
+  background-color: #757575;
+  color: white;
+  border-radius: 5px;
 }

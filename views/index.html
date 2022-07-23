@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>URL Shortener Microservice | freeCodeCamp.org</title>
+    <title>URL Shortener Microservice</title>
     <link
       rel="icon"
       type="image/png"
@@ -13,20 +13,25 @@
 
   <body>
     <h1>URL Shortener Microservice</h1>
+    <p>
+      Post the URL you want to shorten. It will be saved as a number.<br><br>
+    Then, you'll be able to access to it through: <br>
+    https://boilerplate-project-urlshortener.nmorelli96.repl.co/api/shorturl/*NUMBER*
+    </p>
     <main>
       <section>
         <form action="api/shorturl" method="POST">
           <fieldset>
             <legend>URL Shortener</legend>
             <label for="url_input">URL:</label>
-            <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
+            <input id="url_input" type="text" name="url" placeholder="www.yourwebsite.org" />
             <input type="submit" value="POST URL" />
           </fieldset>
         </form>
       </section>
     </main>
     <footer>
-      <p>By <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
+      <p>By <a ref="noopener noreferrer" href="https://github.com/nmorelli96">nmorelli96</a></p>
     </footer>
   </body>
 </html>
